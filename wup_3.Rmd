@@ -40,6 +40,18 @@ This graph shows how much people in each section drink, people in the front row 
   
 ## Inferential Tests
 
+```{r}
+model1 <- aov(alcohol~Seat,data=davisdata)
+summary.aov(model1)
+```
+This graph shows a significant result, because the numbers are smaller than 0.05.
+
+```{r}
+plot(TukeyHSD(model1))
+```
+
+We can observe in the graph that there are differences in how much the people in the back are drinking and how much the people in middle and front are drinking. The people in the back are drinking much more than the people in the middle and front but the people in the middle and the front are not drinking more than each other.
+
 ## Conclusions
 
 
