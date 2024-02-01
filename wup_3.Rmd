@@ -33,7 +33,11 @@ basicCN + geom_boxplot()
 
 
 ## Numerical Summarys 
-
+```{r}
+favstats(alcohol~Seat,data=ucdavis1)
+```
+This graph shows how much people in each section drink, people in the front row drink 1.7 drinks on average. People in the middle row drink 3.3 drinks on average and people in the back row drink 8.5 drinks on average.People in the back drink more than both people who sit in the front or middle.
+  
 ## Inferential Tests
 
 ## Conclusions
