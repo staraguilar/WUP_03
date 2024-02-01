@@ -53,5 +53,6 @@ plot(TukeyHSD(model1))
 We can observe in the graph that there are differences in how much the people in the back are drinking and how much the people in middle and front are drinking. The people in the back are drinking much more than the people in the middle and front but the people in the middle and the front are not drinking more than each other.
 
 ## Conclusions
-
-
+  
+In conclusion we can take evidence from the graphs and box plots that people who sit in the back drink significantly more than people who sit in the front or middle seat. Meanwhile those who sit in the front and middle drink about the same amount.
+  
